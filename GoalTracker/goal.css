@@ -1,0 +1,35 @@
+*{
+    font-family: "Poppins", serif;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    background-color: beige;
+}
+
+body h2{
+    padding: 20px;
+    text-align: center;
+    color: #5B84B1FF;
+}
+
+body h3{
+    padding: 20px;
+    color: #FC766AFF;
+}
+input{
+    margin-right: 0px;
+}
+button{
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+ul{
+    margin-right: 20px;
+
+}
