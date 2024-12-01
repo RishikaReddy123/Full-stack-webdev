@@ -1,0 +1,51 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    flex-direction: column;
+}
+
+body h2{
+    text-align: center;
+}
+body h3{
+    text-align: center;
+}
+.button{
+    height: 200px;
+    width: 200px;
+    border-radius: 20px;
+    border: 6px solid rgb(42, 40, 40);
+    transition: 0.6s;
+}
+.button:hover{
+    box-shadow: 0px 0px 2px 4px;
+}
+.line1{
+    display: flex;
+    margin-top: 20px;
+}
+
+.line2{
+    display: flex;
+}
+#one{
+    background-color: #FFBE98;
+}
+#two{
+    background-color: #F05A7E;
+}
+#three{
+    background-color: #c7df66;
+}
+#four{
+    background-color: #0B8494;
+}
+.flash{
+    background-color: white !important;
+    color: black !important;
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out, color 0.4s ease-in-out;
+    z-index: 10;
+}
