@@ -1,2 +1,2 @@
-# Frontend
-This repo contains Frontend related files/projects.
+# Full stack
+This repo contains Full-stack related files/projects.
